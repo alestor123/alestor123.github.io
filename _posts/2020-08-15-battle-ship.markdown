@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Battle Ship Challenge For Developers"
+date:   2020-08-15 22:24:31 +0530
+categories: jekyll update
+---
+
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/fiqibjgjb0p6mrxi5wsm.jpeg)
 
 # So What Is This Battle Ship Challenge ????

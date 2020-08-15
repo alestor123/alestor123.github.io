@@ -1,4 +1,203 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-15T17:30:37+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alestor Aldous</title><subtitle>This Is My Portfolio .</subtitle><entry><title type="html">My First Post</title><link href="http://localhost:4000/jekyll/update/2020/08/15/welcome-to-jekyll.html" rel="alternate" type="text/html" title="My First Post" /><published>2020-08-15T16:43:31+05:30</published><updated>2020-08-15T16:43:31+05:30</updated><id>http://localhost:4000/jekyll/update/2020/08/15/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/08/15/welcome-to-jekyll.html">&lt;h1 id=&quot;hi-im-alestor&quot;&gt;Hi Im Alestor&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-15T22:25:15+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alestor Aldous</title><subtitle>This Is My Portfolio .</subtitle><entry><title type="html">Battle Ship Challenge For Developers</title><link href="http://localhost:4000/jekyll/update/2020/08/15/battle-ship.html" rel="alternate" type="text/html" title="Battle Ship Challenge For Developers" /><published>2020-08-15T22:24:31+05:30</published><updated>2020-08-15T22:24:31+05:30</updated><id>http://localhost:4000/jekyll/update/2020/08/15/battle-ship</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/08/15/battle-ship.html">&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/i/fiqibjgjb0p6mrxi5wsm.jpeg&quot; alt=&quot;Alt Text&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;so-what-is-this-battle-ship-challenge-&quot;&gt;So What Is This Battle Ship Challenge ????&lt;/h1&gt;
+
+&lt;h2 id=&quot;a-few-days-ago-codestackrania-kubów&quot;&gt;A few days ago &lt;a href=&quot;https://www.youtube.com/channel/UCDCHcqyeQgJ-jVSd6VJkbCw&quot;&gt;CodeStackr&lt;/a&gt;,&lt;a href=&quot;https://www.youtube.com/channel/UC5DNytAJ6_FISueUfzZCVsw&quot;&gt;Ania Kubów&lt;/a&gt;,&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw&quot;&gt;Web Dev Simplified&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;made-a-youtube-collab&quot;&gt;Made a youtube collab&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=U64vIhh0TyM&amp;quot;Everything Is AWESOME&amp;quot;&quot;&gt;&lt;img src=&quot;https://img.youtube.com/vi/U64vIhh0TyM/0.jpg&quot; alt=&quot;Everything Is AWESOME&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;in-this-collab-they-made-a-multi-player-battles-ship-game&quot;&gt;In this collab they made a multi player battles ship game&lt;/h2&gt;
+&lt;h2 id=&quot;try-making-this-project-from-scratch-it-would&quot;&gt;Try Making this project from scratch it would&lt;/h2&gt;
+&lt;h2 id=&quot;siginificantly-improve-your-js-skills--and-a-golden-fether&quot;&gt;siginificantly improve your js skills  and a golden fether&lt;/h2&gt;
+
+&lt;h2 id=&quot;for-your-portfolio-as-a-developer&quot;&gt;for your portfolio as a developer&lt;/h2&gt;
+&lt;h2 id=&quot;to-build-this-project-it-takes-a-siginificant-amount-of&quot;&gt;To build this project it takes a siginificant amount of&lt;/h2&gt;
+&lt;h2 id=&quot;time-and-effort-and-its-worth-time-try-making-it-better&quot;&gt;time and effort and it’s worth time try making it better&lt;/h2&gt;
+
+&lt;h1 id=&quot;so-what-sould-i-do-now-&quot;&gt;So What Sould I Do Now ???&lt;/h1&gt;
+
+&lt;h2 id=&quot;try-to-build-the-project-from-scratch-or-try-imporoving-the-exsiting-project-at-battle-ship-git&quot;&gt;Try to build the project from scratch or try imporoving the exsiting project at &lt;a href=&quot;https://github.com/kubowania/battleships&quot;&gt;Battle Ship Git&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h2 id=&quot;it-includes-socketio-for-multi-player-game&quot;&gt;It includes socket.io for multi player game&lt;/h2&gt;
+
+&lt;h2 id=&quot;and-tweet-every-progress-if-you-can&quot;&gt;And Tweet Every Progress If You Can&lt;/h2&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;h1 id=&quot;keep-coding-&quot;&gt;Keep Coding !!!&lt;/h1&gt;
+
+&lt;h1 id=&quot;--share-with-your-friends-on--twitter&quot;&gt;🙏  Share with your friends on  &lt;a href=&quot;https://twitter.com/intent/tweet?text=%20Battle Ship%20%20Challenge For%20Log%20Every%20Developers%20%20https://dev.to/alestor123/battle-ship-challenge-for-developers-14ag&quot; title=&quot;Share It&quot;&gt;Twitter&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;&amp;lt;h2 align=center&amp;gt; 👇  Find more posts on the following topics &amp;lt;/h2&amp;gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"></summary></entry><entry><title type="html">Console Log Every Where</title><link href="http://localhost:4000/jekyll/update/2020/08/15/console-log-ever.html" rel="alternate" type="text/html" title="Console Log Every Where" /><published>2020-08-15T18:03:31+05:30</published><updated>2020-08-15T18:03:31+05:30</updated><id>http://localhost:4000/jekyll/update/2020/08/15/console-log-ever</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/08/15/console-log-ever.html">&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/i/mcfgbip94gsohs9hj0pw.jpg&quot; alt=&quot;Alt Text&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;did-you-know-that-there-are-more-console-than-consolelog&quot;&gt;Did you know that there are more console than console.log&lt;/h1&gt;
+
+&lt;h2 id=&quot;stick-to-the-end-because-we-are-going-to-find-out&quot;&gt;Stick to the end because we are going to find out&lt;/h2&gt;
+
+&lt;h1 id=&quot;so-what-is-happening-&quot;&gt;So What Is Happening ????&lt;/h1&gt;
+
+&lt;h2 id=&quot;so-there-are-many-options-for-console-such-as&quot;&gt;So there are many options for console such as&lt;/h2&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;This is the outer level&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;group&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;First group&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;In the first group&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;group&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Second group&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;In the second group&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;warn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Still in the second group&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;groupEnd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Back to the first group&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;groupEnd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;debug&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Back to the outer level&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h1 id=&quot;so-let-explain&quot;&gt;So Let Explain&lt;/h1&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;console.assert()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;log-a-message-and-stack-trace-to-console-if-the-first-argument-is-false&quot;&gt;Log a message and stack trace to console if the first argument is false.&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;console.clear()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;to-clear-the-console&quot;&gt;To Clear the console.&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;console.count()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;log-the-number-of-times-this-line-has-been-called-with-the-given-label&quot;&gt;Log the number of times this line has been called with the given label.&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;console.countReset()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;resets-the-value-of-the-counter-with-the-given-label&quot;&gt;Resets the value of the counter with the given label.&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;console.debug()
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;outputs-a-message-to-the-console-with-the-log-level-debug&quot;&gt;Outputs a message to the console with the log level debug.&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;console.dir()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Displays an interactive listing of the properties of a specified JavaScript object. This listing lets you use disclosure triangles to examine the contents of child objects.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;console.dirxml()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;displays-an-xmlhtml-element-representation-of-the-specified-object-if-possible-or-the-javascript-object-view-if-it-is-not-possible&quot;&gt;Displays an XML/HTML Element representation of the specified object if possible or the JavaScript Object view if it is not possible.&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;console.error()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;outputs-an-error-message-you-may-use-string-substitution-and-additional-arguments-with-this-method&quot;&gt;Outputs an error message. You may use string substitution and additional arguments with this method.&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;console.group()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;creates-a-new-inline-group-indenting-all-following-output-by-another-level-to-move-back-out-a-level-call-groupend&quot;&gt;Creates a new inline group, indenting all following output by another level. To move back out a level, call groupEnd().&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;console.groupCollapsed()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;creates-a-new-inline-group-indenting-all-following-output-by-another-level-however-unlike-group-this-starts-with-the-inline-group-collapsed-requiring-the-use-of-a-disclosure-button-to-expand-it-to-move-back-out-a-level-call&quot;&gt;Creates a new inline group, indenting all following output by another level. However, unlike group() this starts with the inline group collapsed requiring the use of a disclosure button to expand it. To move back out a level, call&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;groupEnd().
+console.groupEnd()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Exits the current inline group.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;console.info()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;informative-logging-of-information-you-may-use-string-substitution-and-additional-arguments-with-this-method&quot;&gt;Informative logging of information. You may use string substitution and additional arguments with this method.&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;console.log()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;for-general-output-of-logging-information-you-may-use-string-substitution-and-additional-arguments-with-this-method&quot;&gt;For general output of logging information. You may use string substitution and additional arguments with this method.&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;console.profile() 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;starts-the-browsers-built-in-profiler-for-example-the-firefox-performance-tool-you-can-specify-an-optional-name-for-the-profile&quot;&gt;Starts the browser’s built-in profiler (for example, the Firefox performance tool). You can specify an optional name for the profile.&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;console.profileEnd() 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;stops-the-profiler-you-can-see-the-resulting-profile-in-the-browsers-performance-tool-for-example-the-firefox-performance-tool&quot;&gt;Stops the profiler. You can see the resulting profile in the browser’s performance tool (for example, the Firefox performance tool).&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;console.table()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;displays-tabular-data-as-a-table&quot;&gt;Displays tabular data as a table.&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;console.time()
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;starts-a-timer-with-a-name-specified-as-an-input-parameter-up-to-10000-simultaneous-timers-can-run-on-a-given-page&quot;&gt;Starts a timer with a name specified as an input parameter. Up to 10,000 simultaneous timers can run on a given page.&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;console.timeEnd()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;stops-the-specified-timer-and-logs-the-elapsed-time-in-seconds-since-it-started&quot;&gt;Stops the specified timer and logs the elapsed time in seconds since it started.&lt;/h2&gt;
+&lt;p&gt;console.timeLog()
+Logs the value of the specified timer to the console.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;console.timeStamp() 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;adds-a-marker-to-the-browsers-timeline-or-waterfall-tool&quot;&gt;Adds a marker to the browser’s Timeline or Waterfall tool.&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;console.trace()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;outputs-a-stack-trace&quot;&gt;Outputs a stack trace.&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;console.warn()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;outputs-a-warning-message-you-may-use-string-substitution-and-additional-arguments-with-this-method&quot;&gt;Outputs a warning message. You may use string substitution and additional arguments with this method.&lt;/h2&gt;
+
+&lt;h1 id=&quot;whoh-wait-bro-should-i-learn-every-thing-&quot;&gt;Whoh Wait Bro Should I learn Every Thing ???&lt;/h1&gt;
+
+&lt;h2 id=&quot;just-dont-freak-out-let-me-explain&quot;&gt;Just don’t freak out let me explain&lt;/h2&gt;
+
+&lt;h2 id=&quot;actually-it-depends-on-which-kind-of-application-that-your-working-on&quot;&gt;Actually It depends on which kind of application that your working on.&lt;/h2&gt;
+
+&lt;h1 id=&quot;feel-free-to-view-codestackrs-video-on-this-topic&quot;&gt;Feel Free To View CodeStackrs Video On This Topic&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=_-bHhEGcDiQ&amp;quot;Everything Is AWESOME&amp;quot;&quot;&gt;&lt;img src=&quot;https://img.youtube.com/vi/_-bHhEGcDiQ/0.jpg&quot; alt=&quot;Everything Is AWESOME&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;keep-coding-&quot;&gt;Keep Coding !!!&lt;/h1&gt;
+
+&lt;h1 id=&quot;--share-with-your-friends-on--twitter&quot;&gt;🙏  Share with your friends on  &lt;a href=&quot;https://twitter.com/intent/tweet?text=%20 Console %20Log%20Every%20Where%20%20https://dev.to/alestor123/console-log-every-where-35hc&quot; title=&quot;Share It&quot;&gt;Twitter&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;&amp;lt;h2 align=center&amp;gt; 👇  Find more posts on the following topics &amp;lt;/h2&amp;gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"></summary></entry><entry><title type="html">Should You Learn Bootstrap In 2020</title><link href="http://localhost:4000/jekyll/update/2020/08/15/should-learn-boostrap.html" rel="alternate" type="text/html" title="Should You Learn Bootstrap In 2020" /><published>2020-08-15T16:43:31+05:30</published><updated>2020-08-15T16:43:31+05:30</updated><id>http://localhost:4000/jekyll/update/2020/08/15/should-learn-boostrap</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/08/15/should-learn-boostrap.html">&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/i/nyykelcztd17312ihss0.jpg&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;so-should-you-use-bootstrap-in-2020&quot;&gt;So Should You Use Bootstrap In 2020&lt;/h1&gt;
+&lt;h2 id=&quot;the-short-answer-is-it-depends-when-it-comes-to-frontend-development-bootsrap-can-save-you-a-lot-of-time-but-if-you-want-to-develop-your-frontend-skills-bootsrap-cant-save-your-day&quot;&gt;The short answer is it depends. When it comes to frontend development bootsrap can save you a lot of time but if you want to develop your frontend skills bootsrap can’t save your day.&lt;/h2&gt;
+
+&lt;h1 id=&quot;opinion&quot;&gt;Opinion&lt;/h1&gt;
+
+&lt;h2 id=&quot;every-ones-opinion-defers-when-it-comes-to-front-end-frameworks-some-people-love-those-and--others-hate-them-its-not-like-learning-a-language-or-a-skill-but-mostly-i-often-refer-to-the-docs-boostrap-is-very-easy-to-learn-and-its-pretty-good-for-people-who-doesnt-want-to-spend-lot-of-time-on-cssyou-can-customize-boostrap-other-wise-it-will-be-looking-like-other-bootsrap-web-pages&quot;&gt;Every one’s opinion defers when it comes to front end frameworks some people love those and  others hate them. Its not like learning a language or a skill but mostly I often refer to the docs. Boostrap is very easy to learn and its pretty good for people who doesn’t want to spend lot of time on css.You can customize boostrap other wise it will be looking like other bootsrap web pages.&lt;/h2&gt;
+
+&lt;h1 id=&quot;so-bro-what-about-bootsrap-5&quot;&gt;So Bro What About Bootsrap 5?&lt;/h1&gt;
+
+&lt;h2 id=&quot;k-so-bootsrap-5-is-now-in-a-alpha-stage-it-dosnt-make-any-issue-when-u-switch-to-boostrap-5-but-its-good-for-widgit-js&quot;&gt;K so bootsrap 5 is now in a alpha stage it dosnt make any issue when u switch to boostrap 5 but its good for widgit js.&lt;/h2&gt;
+
+&lt;h1 id=&quot;jquery-is-it-disappearing&quot;&gt;Jquery Is It Disappearing?&lt;/h1&gt;
+&lt;h2 id=&quot;the-short-answer-is-yes-jquery-is-fainting-out-and-mostly-no-one-uses-jquery-now-a-days&quot;&gt;The Short answer is yes jquery is fainting out and mostly no one uses jquery now a days.&lt;/h2&gt;
+
+&lt;h1 id=&quot;bro-what-about-my-css-skills&quot;&gt;Bro What About My Css Skills&lt;/h1&gt;
+&lt;h2 id=&quot;you-can-improve-your-css-skill-by-doing-different-challenges-such-as-try-challenge&quot;&gt;You can improve your css skill by doing different challenges such as try [Challenge]&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=RuLRsMN9KJQ&amp;quot;Everything Is AWESOME&amp;quot;&quot;&gt;&lt;img src=&quot;https://img.youtube.com/vi/RuLRsMN9KJQ/0.jpg&quot; alt=&quot;Everything Is AWESOME&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;h2 id=&quot;every-framework-has-its-own-pros-and-cons&quot;&gt;Every Framework has its own pros and cons&lt;/h2&gt;
+
+&lt;h1 id=&quot;keep-coding-&quot;&gt;Keep Coding !!!&lt;/h1&gt;
+
+&lt;h1 id=&quot;--share-with-your-friends-on--twitter&quot;&gt;🙏  Share with your friends on  &lt;a href=&quot;https://twitter.com/intent/tweet?text=%20Should%20You%20Learn%20Boostrap%20%20https://dev.to/alestor123/should-you-learn-bootstrap-in-2020-14ln&quot; title=&quot;Share It&quot;&gt;Twitter&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;&amp;lt;h2 align=center&amp;gt; 👇  Find more posts on the following topics &amp;lt;/h2&amp;gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"></summary></entry><entry><title type="html">My First Post</title><link href="http://localhost:4000/jekyll/update/2020/08/15/welcome-to-jekyll.html" rel="alternate" type="text/html" title="My First Post" /><published>2020-08-15T16:43:31+05:30</published><updated>2020-08-15T16:43:31+05:30</updated><id>http://localhost:4000/jekyll/update/2020/08/15/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/08/15/welcome-to-jekyll.html">&lt;h1 id=&quot;hi-im-alestor&quot;&gt;Hi Im Alestor&lt;/h1&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
   &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
