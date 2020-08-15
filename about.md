@@ -17,13 +17,8 @@ permalink: /about/
 - Goals: Contribute more to Open Source projects
 - Having Fun In :  Coding , Electronics  , Badminton
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=alestor123" alt="alestor123"/> </p>
 
 
-[jekyll-organization]: https://github.com/jekyll
+# My Stats:
+<img align="left" alt="alestor123's Github Stats" src="https://github-readme-stats.vercel.app/api?username=alestor123&show_icons=true&theme=dark" />
