@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Console Log Every Where"
-date:   2020-08-15 18:15:31 +0530
+date:   2020-08-15 18:3:31 +0530
 categories: jekyll update
 ---
 
