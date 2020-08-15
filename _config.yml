@@ -22,10 +22,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://alestor123.github.io/"
 twitter_username: alestor123
 github_username:  alestor123
-
+icon: "https://icons-for-free.com/iconfiles/png/512/Coding-1320568096072194118.png"
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
