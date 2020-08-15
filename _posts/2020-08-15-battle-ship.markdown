@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Battle Ship Challenge For Developers"
-date:   2020-08-15 22:24:31 +0530
+date:   2020-08-15 22:24:32 +0530
 categories: jekyll update
 ---
 
