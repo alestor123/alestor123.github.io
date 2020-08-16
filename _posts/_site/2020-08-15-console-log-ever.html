@@ -1,0 +1,140 @@
+<p><img src="https://dev-to-uploads.s3.amazonaws.com/i/mcfgbip94gsohs9hj0pw.jpg" alt="Alt Text" /></p>
+
+<h1 id="did-you-know-that-there-are-more-console-than-consolelog">Did you know that there are more console than console.log</h1>
+
+<h2 id="stick-to-the-end-because-we-are-going-to-find-out">Stick to the end because we are going to find out</h2>
+
+<h1 id="so-what-is-happening-">So What Is Happening ????</h1>
+
+<h2 id="so-there-are-many-options-for-console-such-as">So there are many options for console such as</h2>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">This is the outer level</span><span class="dl">"</span><span class="p">);</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">group</span><span class="p">(</span><span class="dl">"</span><span class="s2">First group</span><span class="dl">"</span><span class="p">);</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">In the first group</span><span class="dl">"</span><span class="p">);</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">group</span><span class="p">(</span><span class="dl">"</span><span class="s2">Second group</span><span class="dl">"</span><span class="p">);</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">In the second group</span><span class="dl">"</span><span class="p">);</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">warn</span><span class="p">(</span><span class="dl">"</span><span class="s2">Still in the second group</span><span class="dl">"</span><span class="p">)</span>
+<span class="p">;</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">groupEnd</span><span class="p">();</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">Back to the first group</span><span class="dl">"</span><span class="p">);</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">groupEnd</span><span class="p">();</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">debug</span><span class="p">(</span><span class="dl">"</span><span class="s2">Back to the outer level</span><span class="dl">"</span><span class="p">);</span>
+
+</code></pre></div></div>
+<h1 id="so-let-explain">So Let Explain</h1>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.assert()
+</code></pre></div></div>
+
+<h2 id="log-a-message-and-stack-trace-to-console-if-the-first-argument-is-false">Log a message and stack trace to console if the first argument is false.</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.clear()
+</code></pre></div></div>
+<h2 id="to-clear-the-console">To Clear the console.</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.count()
+</code></pre></div></div>
+<h2 id="log-the-number-of-times-this-line-has-been-called-with-the-given-label">Log the number of times this line has been called with the given label.</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.countReset()
+</code></pre></div></div>
+
+<h2 id="resets-the-value-of-the-counter-with-the-given-label">Resets the value of the counter with the given label.</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.debug()
+
+</code></pre></div></div>
+<h2 id="outputs-a-message-to-the-console-with-the-log-level-debug">Outputs a message to the console with the log level debug.</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.dir()
+</code></pre></div></div>
+<p>Displays an interactive listing of the properties of a specified JavaScript object. This listing lets you use disclosure triangles to examine the contents of child objects.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.dirxml()
+</code></pre></div></div>
+<h2 id="displays-an-xmlhtml-element-representation-of-the-specified-object-if-possible-or-the-javascript-object-view-if-it-is-not-possible">Displays an XML/HTML Element representation of the specified object if possible or the JavaScript Object view if it is not possible.</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.error()
+</code></pre></div></div>
+
+<h2 id="outputs-an-error-message-you-may-use-string-substitution-and-additional-arguments-with-this-method">Outputs an error message. You may use string substitution and additional arguments with this method.</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.group()
+</code></pre></div></div>
+
+<h2 id="creates-a-new-inline-group-indenting-all-following-output-by-another-level-to-move-back-out-a-level-call-groupend">Creates a new inline group, indenting all following output by another level. To move back out a level, call groupEnd().</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.groupCollapsed()
+</code></pre></div></div>
+<h2 id="creates-a-new-inline-group-indenting-all-following-output-by-another-level-however-unlike-group-this-starts-with-the-inline-group-collapsed-requiring-the-use-of-a-disclosure-button-to-expand-it-to-move-back-out-a-level-call">Creates a new inline group, indenting all following output by another level. However, unlike group() this starts with the inline group collapsed requiring the use of a disclosure button to expand it. To move back out a level, call</h2>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>groupEnd().
+console.groupEnd()
+</code></pre></div></div>
+<p>Exits the current inline group.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.info()
+</code></pre></div></div>
+<h2 id="informative-logging-of-information-you-may-use-string-substitution-and-additional-arguments-with-this-method">Informative logging of information. You may use string substitution and additional arguments with this method.</h2>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.log()
+</code></pre></div></div>
+<h2 id="for-general-output-of-logging-information-you-may-use-string-substitution-and-additional-arguments-with-this-method">For general output of logging information. You may use string substitution and additional arguments with this method.</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.profile() 
+</code></pre></div></div>
+<h2 id="starts-the-browsers-built-in-profiler-for-example-the-firefox-performance-tool-you-can-specify-an-optional-name-for-the-profile">Starts the browser’s built-in profiler (for example, the Firefox performance tool). You can specify an optional name for the profile.</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.profileEnd() 
+</code></pre></div></div>
+<h2 id="stops-the-profiler-you-can-see-the-resulting-profile-in-the-browsers-performance-tool-for-example-the-firefox-performance-tool">Stops the profiler. You can see the resulting profile in the browser’s performance tool (for example, the Firefox performance tool).</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.table()
+</code></pre></div></div>
+<h2 id="displays-tabular-data-as-a-table">Displays tabular data as a table.</h2>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.time()
+
+</code></pre></div></div>
+<h2 id="starts-a-timer-with-a-name-specified-as-an-input-parameter-up-to-10000-simultaneous-timers-can-run-on-a-given-page">Starts a timer with a name specified as an input parameter. Up to 10,000 simultaneous timers can run on a given page.</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.timeEnd()
+</code></pre></div></div>
+<h2 id="stops-the-specified-timer-and-logs-the-elapsed-time-in-seconds-since-it-started">Stops the specified timer and logs the elapsed time in seconds since it started.</h2>
+<p>console.timeLog()
+Logs the value of the specified timer to the console.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.timeStamp() 
+</code></pre></div></div>
+
+<h2 id="adds-a-marker-to-the-browsers-timeline-or-waterfall-tool">Adds a marker to the browser’s Timeline or Waterfall tool.</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.trace()
+</code></pre></div></div>
+<h2 id="outputs-a-stack-trace">Outputs a stack trace.</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>console.warn()
+</code></pre></div></div>
+
+<h2 id="outputs-a-warning-message-you-may-use-string-substitution-and-additional-arguments-with-this-method">Outputs a warning message. You may use string substitution and additional arguments with this method.</h2>
+
+<h1 id="whoh-wait-bro-should-i-learn-every-thing-">Whoh Wait Bro Should I learn Every Thing ???</h1>
+
+<h2 id="just-dont-freak-out-let-me-explain">Just don’t freak out let me explain</h2>
+
+<h2 id="actually-it-depends-on-which-kind-of-application-that-your-working-on">Actually It depends on which kind of application that your working on.</h2>
+
+<h1 id="feel-free-to-view-codestackrs-video-on-this-topic">Feel Free To View CodeStackrs Video On This Topic</h1>
+
+<p><a href="https://www.youtube.com/watch?v=_-bHhEGcDiQ&quot;Everything Is AWESOME&quot;"><img src="https://img.youtube.com/vi/_-bHhEGcDiQ/0.jpg" alt="Everything Is AWESOME" /></a></p>
+
+<h1 id="keep-coding-">Keep Coding !!!</h1>
+
+<h1 id="--share-with-your-friends-on--twitter">🙏  Share with your friends on  <a href="https://twitter.com/intent/tweet?text=%20 Console %20Log%20Every%20Where%20%20https://dev.to/alestor123/console-log-every-where-35hc" title="Share It">Twitter</a></h1>
+
+<p>&lt;h2 align=center&gt; 👇  Find more posts on the following topics &lt;/h2&gt;</p>
+
