@@ -7,7 +7,7 @@ permalink: /about/
 
 <img src="https://avatars1.githubusercontent.com/u/51041424?s=460&v=4" alt="Profile"
  style="border-radius: 50%;" title="Profile Pic" width="200" height="200" />
-<p align="left"> <img src=https://komarev.com/ghpvc/?username=alestor123 alt=alestor123/> </p>
+
 
 [![Website](https://img.shields.io/website?label=alestor123.github.io&style=for-the-badge&url=https%3A%2F%2Falestor123.github.io)](https://alestor123.github.io)
 
@@ -28,7 +28,6 @@ permalink: /about/
 
 ### Spotify Playing 🎧
 <img src="https://novatorem-1-git-master.alestor123.vercel.app/api/spotify-playing/" alt="Spotify Now Playing" width="350" />
-📊 **Latest Activity**
 
 
 
