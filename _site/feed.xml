@@ -1,4 +1,56 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-16T23:13:53+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alestor Aldous</title><subtitle>This Is My Portfolio .</subtitle><entry><title type="html">So What The Heck Is Taiwind??</title><link href="http://localhost:4000/jekyll/update/2020/08/15/taiwind-intro.html" rel="alternate" type="text/html" title="So What The Heck Is Taiwind??" /><published>2020-08-15T23:11:32+05:30</published><updated>2020-08-15T23:11:32+05:30</updated><id>http://localhost:4000/jekyll/update/2020/08/15/taiwind-intro</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/08/15/taiwind-intro.html">&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/i/mi9f2242znbslevjt3l0.png&quot; alt=&quot;Alt Text&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-17T22:31:30+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alestor Aldous</title><subtitle>This Is My Portfolio .</subtitle><entry><title type="html">So Where Do I Deploy ???</title><link href="http://localhost:4000/jekyll/update/2020/08/17/where-should-i-deploy.html" rel="alternate" type="text/html" title="So Where Do I Deploy ???" /><published>2020-08-17T22:29:33+05:30</published><updated>2020-08-17T22:29:33+05:30</updated><id>http://localhost:4000/jekyll/update/2020/08/17/where-should-i-deploy</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/08/17/where-should-i-deploy.html">&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/i/idimevz68hzl65lnc38w.jpg&quot; alt=&quot;Alt Text&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;so-where-do-i-deploy-my-app-&quot;&gt;So Where Do I Deploy My App ??&lt;/h1&gt;
+
+&lt;h2 id=&quot;there-are-serveral-platofroms-to-deploy-your-app&quot;&gt;There are serveral platofroms to deploy your app&lt;/h2&gt;
+&lt;h2 id=&quot;it-depends-on-the-complexity-and-use-of-your-app&quot;&gt;It depends on the complexity and use of your app&lt;/h2&gt;
+
+&lt;h1 id=&quot;if-you-just-want-to-show-case-your-app-you-can-use-one-among-these-&quot;&gt;If you just want to show case your app you can use one among these 👇&lt;/h1&gt;
+
+&lt;h1 id=&quot;heroku&quot;&gt;Heroku&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Heroku is a cloud platform to host your apps simply&lt;/li&gt;
+  &lt;li&gt;You only need to know basic git commands&lt;/li&gt;
+  &lt;li&gt;It comes with no cost but you can deploy 5 app max&lt;/li&gt;
+  &lt;li&gt;Widely used by Developers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;netlify&quot;&gt;Netlify&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;You can deploy unlimited deploys&lt;/li&gt;
+  &lt;li&gt;Widely used by Developers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;github-pages&quot;&gt;Github Pages&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;You can deploy unlimited apps&lt;/li&gt;
+  &lt;li&gt;Can use github actions for automations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;when-it-comes-to-scalability&quot;&gt;When It comes to Scalability&lt;/h1&gt;
+
+&lt;h1 id=&quot;aws&quot;&gt;AWS&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;You can deploy unlimited Apps for an developer or an enterprise plan&lt;/li&gt;
+  &lt;li&gt;Recommended By Developers&lt;/li&gt;
+  &lt;li&gt;Even Dev.to is deployed on AWS
+    &lt;h1 id=&quot;azure&quot;&gt;Azure&lt;/h1&gt;
+  &lt;/li&gt;
+  &lt;li&gt;You can deploy unlimited Apps for an developer or an enterprise plan&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;and-more-&quot;&gt;And More ..&lt;/h1&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;h2 id=&quot;every-service-has-its-own-pros-and-cons&quot;&gt;Every Service has its own pros and cons&lt;/h2&gt;
+
+&lt;h1 id=&quot;keep-coding-&quot;&gt;Keep Coding !!!&lt;/h1&gt;
+
+&lt;h1 id=&quot;--share-with-your-friends-on--twitter&quot;&gt;🙏  Share with your friends on  &lt;a href=&quot;https://twitter.com/intent/tweet?text=%20%So Where Do I Deploy ??20%20https://dev.to/alestor123/so-where-do-i-deploy-eah&quot; title=&quot;Share It&quot;&gt;Twitter&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;&amp;lt;h2 align=center&amp;gt; 👇  Find more posts on the following topics &amp;lt;/h2&amp;gt;&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"></summary></entry><entry><title type="html">So What The Heck Is Taiwind??</title><link href="http://localhost:4000/jekyll/update/2020/08/16/taiwind-intro.html" rel="alternate" type="text/html" title="So What The Heck Is Taiwind??" /><published>2020-08-16T23:11:32+05:30</published><updated>2020-08-16T23:11:32+05:30</updated><id>http://localhost:4000/jekyll/update/2020/08/16/taiwind-intro</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/08/16/taiwind-intro.html">&lt;p&gt;&lt;img src=&quot;https://dev-to-uploads.s3.amazonaws.com/i/mi9f2242znbslevjt3l0.png&quot; alt=&quot;Alt Text&quot; /&gt;&lt;/p&gt;
 &lt;h1 id=&quot;so-what-the-is-taiwind-&quot;&gt;So What The Is Taiwind ??&lt;/h1&gt;
 
 &lt;h2 id=&quot;taiwind-highly-customizable-low-level-css-framework-that-gives-you-all-of-the-building-blocks-you-need-to-build-bespoke-designs-without-any-annoying-opinionated-styles-you-have-to-fight-to-override&quot;&gt;Taiwind highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override.&lt;/h2&gt;

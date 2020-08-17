@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "So Where Do I Deploy ???"
-date:   2020-08-17 22:29:31 +0530
+date:   2020-08-17 22:29:33 +0530
 categories: jekyll update
 ---
 
@@ -46,8 +46,7 @@ categories: jekyll update
 
 # Keep Coding !!!
 
-
-# 🙏  Share with your friends on  [Twitter](https://twitter.com/intent/tweet?text=%20%So Where Do I Deploy ??20%20https://dev.to/alestor123/so-where-do-i-deploy-eah "Share It" )
+# 🙏  Share with your friends on  [Twitter](https://twitter.com/intent/tweet?text=%20 So Where Do I Deploy?%20%20https://dev.to/alestor123/so-where-do-i-deploy-eah "Share It" )
  
 
  
