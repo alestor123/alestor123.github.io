@@ -27,8 +27,6 @@ categories: jekyll update
 
 # Conclusion
 
-## Every Service has its own pros and cons 
-
 # Keep Coding !!!
 
 
@@ -37,4 +35,3 @@ categories: jekyll update
 
  
 <h2 align=center> 👇  Find more posts on the following topics </h2>
-
