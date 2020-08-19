@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Http In Depth"
-date:   2020-08-18 18:5:33 +0530
+title:  "Dns In 1 Shot"
+date:   2020-08-18 13:26:33 +0530
 categories: jekyll update
 ---
+
