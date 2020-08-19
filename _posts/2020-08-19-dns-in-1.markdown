@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dns In 1 Shot"
-date:   2020-08-18 13:26:33 +0530
+date:   2020-08-19 13:26:33 +0530
 categories: jekyll update
 ---
 
