@@ -5,6 +5,8 @@ date:   2020-08-19 13:26:33 +0530
 categories: jekyll update
 ---
 
+![Title](https://res.cloudinary.com/practicaldev/image/fetch/s--WO5GEQMC--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/pxmw933mqpbl23tuw5hp.jpg)
+
 # What is HTML Canvas?
 ## The HTML`` <canvas>`` element is used to draw graphics, on the fly, via JavaScript.
 
