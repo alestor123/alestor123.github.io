@@ -1,0 +1,77 @@
+---
+layout: post
+title:  "So Should I Use Deno  ??"
+date:   2020-08-21 13:1:33 +0530
+categories: jekyll update
+---
+
+
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/ygkm7h1apqci7u8chvnn.jpg)
+
+
+# So Should I Use Deno ???
+
+## The short answer it depends. 
+
+# So What Is Deno ??
+
+## Deno is typescript run time 
+
+# Benefits of using Deno
+## Some of Deno's most important benefits compared to Node are:
+
+- Secure by default: Just like mobile applications, you need to grant explicit permission to access file, network, or environment. Because of this, you don't have to be scared anymore about one corrupted package stealing your personal information.
+
+- Simplicity: Deno ships as a single executable, which provides everything you need to develop your application. No need for a package.json file or setting up external config files.
+
+- Support for TypeScript out of the box: Given Typescript popularity and adoption, this can significantly improve the developer experience and help developers catch bugs early.
+
+- Built-in utilities such as a bundler and code formatter: In other words, there is no need for external dependencies such as Prettier or Webpack for common tasks. 
+
+- Standard library: This has been a long-requested feature for JavaScript, and Deno offers one. It provides utilities for testing, date-formatting, and more.
+
+- Browser compatible API: Global variables and events such as fetch, load, unload, and window are available in Deno just like you would expect in a browser, thus reducing the friction of moving from one platform to another.
+
+## All these benefits translate to mainly two things. First, you significantly improve developer experience, thus leading to potentially shorter development cycles, and second, you reduce the risk of downtime and data loss due to vulnerabilities from unsecured scripts.
+
+```
+// Importing a dependency directly from a URL 🤯
+import { parseDateTime } from "https://deno.land/std/datetime/mod.ts"
+
+// Using browser compatible apis such as fetch
+const res = await fetch('https://icanhazdadjoke.com', {
+    headers: { 'Accept': 'application/json' }
+})
+const data = await res.json()
+
+const enc = new TextEncoder();
+// Using the Deno global namespace for os utilities
+await Deno.writeFile("joke-of-the-day.txt", enc.encode(data.joke))
+
+console.log("We're done here 🦕")
+```
+# Deno's limitations
+
+## Despite all the significant merits, Deno has some shortcomings that prevent it from being on the same level as Node today. Here they are:
+
+- Migration cost: Most organizations using Node, are tightly coupled to npm's ecosystem. For example, teams have thousands of tests written with Jest, their configuration for prettier, their custom Webpack config, Node global variables, and much more. Adopting Deno for these types of applications would probably be more costly than to keep using Node and npm. Also, if you use Deno for new projects, there would be extra effort maintaining utilities that work for this runtime and a lot of effort would be wasted
+
+- incompatibility with some NPM packages: One study referenced in this talk from 2019 suggests that the reason JavaScript is the most popular language today is because of the large number of packages available in the npm registry. Unfortunately, some very popular Node packages are not compatible with Deno.
+
+- Lack of experienced developers using it: This means that even if companies decide to use Deno, finding experts would be challenging.
+
+# Should you adopt it now?
+
+In my opinion, if you're talking about using Deno for production apps, then you should NOT (for now). The technology is still in its early stages, which means the ecosystem isn't mature enough to support the thousands of use cases companies have for Node and also the common problems that will arise with Deno that don't have an answer in the JavaScript community. Finally, working with unstable APIs is a dangerous game. You can end up needing to create a pull request to Deno itself to support a critical application.
+
+# Conclusion
+
+
+# Keep Coding !!!
+
+
+# 🙏  Share with your friends on  [Twitter](https://twitter.com/intent/tweet?text=%20 So Should I Use Deno ??? %20%20https://dev.to/alestor123/so-should-i-use-deno-2101"Share It" )
+ 
+ 
+<h2 align=center> 👇  Find more posts on the following topics </h2>
+
