@@ -45,6 +45,7 @@ permalink: /about/
 ### Spotify Playing 🎧
 <img src="https://novatorem-1-git-master.alestor123.vercel.app/api/spotify-playing/" alt="Spotify Now Playing" width="350" />
 
+
 ![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alestor123&layout=dark)
 
 
