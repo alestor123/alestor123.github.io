@@ -6,7 +6,11 @@ permalink: /about/
 
 
 <p align="left"> 
-
+<p align="right">
+ 
+<img src="https://octoday.glitch.me/octodex" alt="Profile"
+ style="border-radius: 50%;" title="Profile Pic" width="200" height="200" />
+</p>
 <img src="https://avatars1.githubusercontent.com/u/51041424?s=460&v=4" alt="Profile"
  style="border-radius: 50%;" title="Profile Pic" width="200" height="200" />
 
