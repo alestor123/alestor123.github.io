@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+permalink: /
 ---
 
 <h1 align="center"> < Hi there, I'm Alestor /> </h1>
