@@ -1,6 +1,6 @@
 ---
-permalink: /blog/
 layout: home
+permalink: /blog/
 ---
 
 <h1 align="center"> < Hi there, I'm Alestor /> </h1>
