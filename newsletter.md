@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Donate
+title: News Letter
 permalink: /newsletter/
 ---
 
 <h1 align="center"> < Adventures Of ClI /> </h1>
-<h2 align="center"> Place where i share what I have learned, things I have found interesting, insights into how I make and maintain my projects, secrets,blogs etc.. Im pretty sure i will not make you bored <a href="http://getrevue.co/profile/alestor123" target="_blank">Sign up for the news letter</a> There will be some give aways in the first 200 issues </h2>
+<h3 align="center"> Place where i share what I have learned, things I have found interesting, insights into how I make and maintain my projects, secrets,blogs etc.. Im pretty sure i will not make you bored <a href="http://getrevue.co/profile/alestor123" target="_blank">Sign up for the news letter</a> There will be some give aways in the first 200 issues </h3>
 
