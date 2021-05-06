@@ -3,6 +3,7 @@ layout: post
 title:  "You are afraid of what ?"
 date:   2021-05-04 12:37:00 +0530
 author: alestor123
+description: What are you afraid of
 related_image: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/b1fhnmyrmaprx1eu1sdp.jpg 
 categories: afraid webdev saas startup dev
 ---
