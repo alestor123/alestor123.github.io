@@ -2,7 +2,8 @@
 layout: post
 title:  "You are afraid of what ?"
 date:   2021-05-04 12:37:00 +0530
-categories: jekyll update
+author: alestor123
+categories: afraid webdev saas startup dev
 ---
 
 ![Title](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/b1fhnmyrmaprx1eu1sdp.jpg)
