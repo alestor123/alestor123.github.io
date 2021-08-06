@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Projects
-permalink: /projects/
+title: Apps
+permalink: /apps/
 ---
 
