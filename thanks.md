@@ -1,5 +1,7 @@
 ---
 permalink: /thanks/
+layout: default
+title: Thanks
 ---
 
 # Thanks for everything 
