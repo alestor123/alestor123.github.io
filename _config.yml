@@ -14,18 +14,30 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Alestor Aldous
-
-description: >- # this means to ignore newlines until "baseurl:"
-  A Mortal Developer With Immortal Dreams
+description: A Mortal Developer With Immortal Dreams
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://alestor123.github.io/"
 twitter_username: alestor123
 github_username:  alestor123
+linkedin_username:  alestor123
+
 icon: "https://icons-for-free.com/iconfiles/png/512/Coding-1320568096072194118.png"
 # Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - license
+  - CNAME
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+header_pages:
+- about.html
+- blog.html
+- projects.html
+- thanks.html
+- donate.html

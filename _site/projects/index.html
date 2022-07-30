@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Projects | Alestor Aldous</title>
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="Projects" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A Mortal Developer With Immortal Dreams" />
+<meta property="og:description" content="A Mortal Developer With Immortal Dreams" />
+<link rel="canonical" href="http://localhost:4000/projects/" />
+<meta property="og:url" content="http://localhost:4000/projects/" />
+<meta property="og:site_name" content="Alestor Aldous" />
+<script type="application/ld+json">
+{"@type":"WebPage","headline":"Projects","description":"A Mortal Developer With Immortal Dreams","url":"http://localhost:4000/projects/","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Alestor Aldous" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Alestor Aldous</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/blog/">Blog</a><a class="page-link" href="/projects/">Projects</a><a class="page-link" href="/thanks/">Thanks</a><a class="page-link" href="/donate/">Donate</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <style>
+body {
+    font-family: monospace;
+    color: aliceblue;
+}
+
+main,footer {
+    background-color: black;
+}
+.tag {
+    cursor: pointer;
+    justify-content:center;
+    padding-bottom: calc(.375em - 1px);
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    padding-top:calc(.375em - 1px);
+    text-align:center;
+    white-space:nowrap;
+}
+.tag.is-success { 
+    background-color: #23d160;
+    border-color: transparent;
+    color: #fff;
+}
+.tag.is-false { 
+    background-color: aliceblue;
+    border-color: transparent;
+    color: black;
+}
+/* 
+.button-sucesss {
+    background-color: aliceblue;
+    border-color: transparent;
+    color: black; */
+
+/* } */
+a {
+    color: aqua;
+}
+a:not(#lnks,#img):hover {
+    color: aliceblue;
+    background-color: aqua;
+}
+
+.site-nav {
+    color: aliceblue;
+    font-size: 19px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 aliceblue;
+}
+
+
+.container {
+  padding: 25px 25px;
+}
+.projectIcon {
+padding: 10px;
+}
+
+#select {
+padding: 50px;
+}
+
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: aqua;
+  color: white;
+}
+
+.btn.fls {
+  background-color: aliceblue;
+  color: black;
+}
+
+
+</style>
+
+<h1 align="center"> < Projects /> </h1>
+<h4 align="center"> Most of my time I spend on my Side Projects. 
+ I experiment with a variety of stuff and hone my skills with these projects. I mostly use JavaScript. Checkout my GitHub for other projects.
+</h4>
+<div class="repocontainer">
+<h1 align="center"> Latest Repos : </h1>
+<div id="latestrepo"  class="row">
+    <h1 align="center">Loading ... </h1> 
+</div>
+<h1 align="center"> Side Projects : </h1>
+<div class="selector-proj-category ">
+    <div align="center" id="select" class="btn-toolbar"> 
+        <button id="all-btn" class="btn fls" onclick="filterSelection('all',this)" disabled>All</button> 
+        
+    </div>
+<div id="projects">
+    <h1 align="center">Loading ... </h1> 
+</div>
+
+</div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script>
+
+const latestrepodoc = document.getElementById('latestrepo')
+const projsCards = document.getElementById('projects')
+const selectDiv = document.getElementById('select')
+let tags = [];
+let initLoad = true;
+const baseURL = 'https://fetch-projects.vercel.app/api/v1/projects?maxnumber=6&&username=alestor123'
+async function fetchProjects() {
+data = (await axios.get(baseURL)).data
+latestrepodoc.innerHTML = "";
+projsCards.innerHTML = "";
+document.getElementById('all-btn').disabled = false;
+// data.projects.forEach(proj => {
+// tags.push(proj.tags)
+// })\
+displayProjects(data.projects)
+
+tags = ([...new Set(tags)]);
+tags.forEach(tg => selectDiv.innerHTML += `<button class="btn active" onclick="filterSelection('${tg}',this)">${tg.charAt(0).toUpperCase() + tg.slice(1)}</button> \n`)
+data.projects.map(pj => {
+    pj.tags.push('all')
+    return pj.tags
+})
+data.latestRepos.forEach(repo =>{
+    latestrepodoc.innerHTML += `<div class="card"><div class="container"><h4>
+    <a target="_blank" href="${repo.url}">${repo.name}</a>  
+    <a target="_blank" style="background-color: ${repo.primaryLanguage.color}" href="https://github.com/alestor123?tab=repositories&q=&type=&language=${repo.primaryLanguage.name.toLowerCase()}&sort=">${repo.primaryLanguage.name}</a> 
+    </h4><p id="latest-repo-description">${repo.description}</p></div></div>`
+
+})
+
+
+
+}
+function filterSelection(options,buttonD) {
+    const container = document.querySelector('.btn-toolbar');
+    const buttons = document.querySelectorAll('.btn-toolbar button');
+    container.addEventListener('click', (e) => {
+        if (e.target.nodeName !== "BUTTON") return;
+        buttons.forEach(anchor => {
+        anchor.className = "btn active";
+    });
+    e.target.className = 'btn fls';
+});
+    displayProjects(data.projects.filter(prj => prj.tags.includes(options)))
+    // buttonD.className = 'btn fls'
+}
+function displayProjects(dt) {
+    projsCards.innerHTML = ""
+    dt.forEach(proj => {
+projsCards.innerHTML +=`<div class="card"> <a target="_blank" id="img" href="${proj.url}"> <img src="${proj.icon}" class="projectIcon" alt="project icon" width="150" height="150" align="center"  style="width:100%;"><div class="container"></a>
+    <a target="_blank"  href="${proj.url}">  <h4 align="center"><b>${proj.name}</b></h4> </a> 
+            </a>
+              <h5 align="center"><b>v${proj.version}</b></h5> 
+              <p align="center">${proj.description}</p> 
+              <p align="center">Made with : ${proj.using.map(th => `<a target="_blank" href="https://www.google.com/search?q=${th}">`+th+'</a>').join(',')}</p> 
+              <p align="center">tags : ${proj.tags.join(',')}</p> 
+
+            </div>
+        </div>`
+if(initLoad) tags.push(...proj.tags)
+})
+initLoad = false
+}
+
+
+fetchProjects()
+</script>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Alestor Aldous</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Alestor Aldous</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/alestor123"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">alestor123</span></a></li><li><a href="https://www.linkedin.com/in/alestor123"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg> <span class="username">alestor123</span></a></li><li><a href="https://www.twitter.com/alestor123"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">alestor123</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A Mortal Developer With Immortal Dreams</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
