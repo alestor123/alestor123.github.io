@@ -10,3 +10,11 @@ The website targets the latest version of Chrome, Safari, and Firefox.
 ![demo](./demo/shots/alperweb1.png)
 
 ![demo](./demo/shots/alperweb2.png)
+
+# Dev
+RUN :
+
+
+```
+bundle exec jekyll serve --livereload --open-url
+```
