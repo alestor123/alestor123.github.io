@@ -26,3 +26,21 @@ RUN :
 ```
 bundle exec jekyll serve --livereload --open-url
 ```
+
+
+## 💖 [Donate](https://alestor123.is-a.dev/donate)
+
+
+
+## Author
+
+👤 **Alestor Aldous**
+
+- Twitter: [@alestor123](https://twitter.com/alestor123)
+- Github: [@alestor123](https://github.com/alestor123)
+
+
+## 📝 License
+> MIT
+
+Copyright © 2022 [Alestor Aldous](https://github.com/alestor123).<br />
