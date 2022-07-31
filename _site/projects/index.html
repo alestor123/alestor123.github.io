@@ -202,7 +202,7 @@ function filterSelection(options,buttonD) {
 function displayProjects(dt) {
     projsCards.innerHTML = ""
     dt.forEach(proj => {
-projsCards.innerHTML +=`<div class="card"> <a target="_blank" id="img" href="${proj.url}"> <img src="${proj.icon}" class="projectIcon" alt="project icon" width="150" height="150" align="center"  style="width:100%;"><div class="container"></a>
+projsCards.innerHTML +=`<div class="card"> <a target="_blank" id="img" href="${proj.url}">`+(proj.icon ? ` <img src="${proj.icon}" class="projectIcon" alt="project icon" width="150" height="150" align="center"  style="width:100%;">` : '') +`<div class="container"></a>
     <a target="_blank"  href="${proj.url}">  <h4 align="center"><b>${proj.name}</b></h4> </a> 
             </a>
               <h5 align="center"><b>v${proj.version}</b></h5> 
