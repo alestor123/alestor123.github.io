@@ -123,9 +123,21 @@ padding: 50px;
   background-color: aliceblue;
   color: black;
 }
-
+input {
+    background: black;
+    width: 50%;
+    border-radius: 20px;
+    min-width: 300px;
+    margin-top: 1em;
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 2px solid #1688f0;
+    color: aliceblue;
+    text-align: center;
+}
 
 </style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
 <h1 align="center"> < Projects /> </h1>
 <h4 align="center"> Most of my time I spend on my Side Projects. 
@@ -138,9 +150,11 @@ padding: 50px;
 </div>
 <h1 align="center"> Side Projects : </h1>
 <div class="selector-proj-category ">
-    <div align="center" id="select" class="btn-toolbar"> 
+    <div align="center" > 
+        <input type="text" onkeyup="filterSelection('all',this)" class="filter-repos hide" align="center" placeholder="Search Projects" />
+        <div id="select" class="btn-toolbar">
         <button id="all-btn" class="btn fls" onclick="filterSelection('all',this)" disabled>All</button> 
-        
+        </div>
     </div>
 <div id="projects">
     <h1 align="center">Loading ... </h1> 
@@ -158,27 +172,46 @@ const projsCards = document.getElementById('projects')
 const selectDiv = document.getElementById('select')
 let tags = [];
 let initLoad = true;
-const baseURL = 'https://fetch-projects.vercel.app/api/v1/projects?maxnumber=6&&username=alestor123'
+const baseURL = 'https://fetch-projects.vercel.app/api/v1/'
 async function fetchProjects() {
-data = (await axios.get(baseURL)).data
+data = (await axios.get(baseURL+'projects?maxnumber=6&&username=alestor123')).data
+fetchProjectInfo = (await axios.get(baseURL+'allprojects?username=alestor123')).data
 latestrepodoc.innerHTML = "";
 projsCards.innerHTML = "";
 document.getElementById('all-btn').disabled = false;
+// console.log(fetchProjectInfo.tags)
+dataProjects = fetchProjectInfo.data.map(repo => {
+    return {
+        name:repo.name,
+        description:repo.description,
+        version:repo.package.version,
+        funding:repo.package.funding,
+        url:repo.package.homepage,
+        license:repo.package.license,
+        icon:repo.package.icon,
+        topics:fetchProjectInfo.tags.filter((n)  => repo.topics.indexOf(n) !== -1)
+    }
+})
+
+
+// console.log(dataProjects)
 // data.projects.forEach(proj => {
 // tags.push(proj.tags)
 // })\
-displayProjects(data.projects)
+displayProjects(dataProjects)
 
 tags = ([...new Set(tags)]);
 tags.forEach(tg => selectDiv.innerHTML += `<button class="btn active" onclick="filterSelection('${tg}',this)">${tg.charAt(0).toUpperCase() + tg.slice(1)}</button> \n`)
-data.projects.map(pj => {
-    pj.tags.push('all')
-    return pj.tags
+dataProjects.map(pj => {
+    pj.topics.push('all')
+    return pj.topics
 })
 data.latestRepos.forEach(repo =>{
     latestrepodoc.innerHTML += `<div class="card"><div class="container"><h4>
     <a target="_blank" href="${repo.url}">${repo.name}</a>  
-    <a target="_blank" style="background-color: ${repo.primaryLanguage.color}" href="https://github.com/alestor123?tab=repositories&q=&type=&language=${repo.primaryLanguage.name.toLowerCase()}&sort=">${repo.primaryLanguage.name}</a> 
+    <a target="_blank" href="https://github.com/alestor123?tab=repositories&q=&type=&language=${repo.primaryLanguage.name.toLowerCase()}&sort=">
+        <i class="devicon-${repo.primaryLanguage.name.toLowerCase()}-plain colored"></i> 
+    </a>
     </h4><p id="latest-repo-description">${repo.description}</p></div></div>`
 
 })
@@ -196,23 +229,29 @@ function filterSelection(options,buttonD) {
     });
     e.target.className = 'btn fls';
 });
-    displayProjects(data.projects.filter(prj => prj.tags.includes(options)))
+// console.log(fetchProjectInfo.map((repo,index) => {
+// return repo
+// }))
+
+// console.log(data.projects.filter(prj => prj.tags.includes(options) && prj.name.toLowerCase().includes(buttonD.value.toLowerCase())))
+    displayProjects(dataProjects.filter(prj => prj.topics.includes(options) && prj.name.toLowerCase().includes(buttonD.value.toLowerCase()) ))
     // buttonD.className = 'btn fls'
 }
 function displayProjects(dt) {
     projsCards.innerHTML = ""
+
     dt.forEach(proj => {
 projsCards.innerHTML +=`<div class="card"> <a target="_blank" id="img" href="${proj.url}">`+(proj.icon ? ` <img src="${proj.icon}" class="projectIcon" alt="project icon" width="150" height="150" align="center"  style="width:100%;">` : '') +`<div class="container"></a>
     <a target="_blank"  href="${proj.url}">  <h4 align="center"><b>${proj.name}</b></h4> </a> 
             </a>
               <h5 align="center"><b>v${proj.version}</b></h5> 
-              <p align="center">${proj.description}</p> 
-              <p align="center">Made with : ${proj.using.map(th => `<a target="_blank" href="https://www.google.com/search?q=${th}">`+th+'</a>').join(',')}</p> 
-              <p align="center">tags : ${proj.tags.join(',')}</p> 
+              <p align="center">${proj.description}</p>`+ 
+              (proj.using ? `<p align="center">Made with : ${proj.using.map(th => `<a target="_blank" href="https://www.google.com/search?q=${th}">`+th+'</a>').join(',')}</p> 
+               `:'') +`<p align="center">tags : ${proj.topics.join(',')}</p>
 
             </div>
         </div>`
-if(initLoad) tags.push(...proj.tags)
+if(initLoad) tags.push(...proj.topics)
 })
 initLoad = false
 }
