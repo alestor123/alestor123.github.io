@@ -1,10 +1,10 @@
 ---
 name: After A Long Break
 description: "A simple guide refresh your knowledge after a long break  from personal experience"
-date: 11-6-2022
+date: 2022-08-5 13:00:00 +0530
 featured-image: https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg
 featured-image-alt: Coding
-catagories: career
+catagories: jekyll update
 author: Alestor Aldous
 --- 
 
