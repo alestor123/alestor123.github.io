@@ -2,7 +2,7 @@
 name: Entrance Exam Prep(Because Who Needs Sleep or a Social Life, Anyway?)
 description: "A sarcastic take on surviving entrance exams"
 date: 2024-12-19 19:30:00 +0530
-featured-image: 
+featured-image: https://content.imageresizer.com/images/memes/Awkward-smiling-old-man-meme-1lbeyi.jpg
 featured-image-alt: Image of Some Some Random MONK
 catagories: jekyll update
 author: Alestor Aldous
